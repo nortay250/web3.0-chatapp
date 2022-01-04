@@ -8,10 +8,11 @@ function Login() {
             <h1>I am the Login Screen</h1>
             <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
                 {/*logo*/}
-                {/*<Image src="https://links.papareact.com/3pi"
-                    className="object-cover rounded-full"
-                    height={200}
-                    width={200} />*/}
+                <Image
+                    className="rounded-full bg-black cursor-pointer hover:opacity-75"
+                    src={`https://avatars.dicebear.com/api/pixel-art/norapps.svg`}
+                    width="200" height="200"   
+                />
                 {/*login button*/}
                 <button
                     onClick={authenticate}
